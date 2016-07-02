@@ -43,9 +43,9 @@ There are two exceptions to this rule:
 as inputs. Filters that receive [Objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Objects)
 as input are executed on each `$digest`, as it would be too costly to track if the inputs have changed.
 
-2. Filters that are marked as `$stateful` are also executed on each $digest.
+2. Filters that are marked as `$stateful` are also executed on each `$digest`.
 See {@link guide/filter#stateful-filters Stateful filters} for more information. Note that no Angular
-core filters are $stateful.
+core filters are `$stateful`.
 
 
 ## Using filters in controllers, services, and directives
